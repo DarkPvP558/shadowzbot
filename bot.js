@@ -281,9 +281,7 @@ client.on('message', message => {
 if (message.content === '/help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("** مبرمج البوت :wrench: **","**@! DarkPvP#3334
-EMAIL
- **")
+      .addField("** مبرمج البوت :wrench: **","**@!DarkPvP#3334 **")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
@@ -814,7 +812,7 @@ client.on("message", message => {
 	  .addField('/bc', `لخاصية البرودكستات`)
       .setFooter('======================================================')
       .setFooter('اوامر الاعضاء')
-      .addField('غير متاح', `لاضافة البوت الى سيرفرك`)
+      .addField('/invite', `لاضافة البوت الى سيرفرك`)
 	  .addField('/roles', `لمعرفة الرتب الي في السيرفر`)
       .addField('/avatar', `يجبلك الافتار حقك يعني صورة حسابك`)
       .addField('/2avatar', `الافتار عن طريق المنشن`)
@@ -899,7 +897,7 @@ client.on("message", message => {
  if (message.content === "/support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('©Shadowz System Bot:heart: جميع الحقوق محفوظة شادوز بوت')  
+      .setFooter('© DragonSystem Bot:heart: جميع الحقوق محفوظة دراجون بوت')  
       .addField('سيرفر الدعم الفني', `  https://discord.gg/SFY3F2g  `)
   message.author.send({embed});
 
@@ -963,7 +961,7 @@ client.on('message', message => {
  
   .setColor("#FF0000")
   .addField('``سرعة أتصال الــبوت`` ' , `${Date.now() - message.createdTimestamp}` + ' ms`')
-                 .setFooter(` shadowzSystem Bot
+                 .setFooter(` DragonSystem Bot
  .`, 'https://b.top4top.net/p_6021qh431.jpg')
 
   message.channel.sendEmbed(embed);
@@ -1462,7 +1460,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "© shadowzSystem Bot ™."
+          text: "© DragonSystem Bot ™."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -1787,7 +1785,7 @@ if(!gg) return;
 if(gg) {
 gg.send({embed : new Discord.RichEmbed()
 .setDescription(`**  الأيدي :question:  : \n ${lan}\nالمميزات :link: :\n ${md} \nعدد السيرفرات والمستخدمين :question: :\n ${br}  \nتم التقديم بواسطة  : <@${message.author.id}> **`)  
-          .setFooter(`shadowz Bot List.`)
+          .setFooter(`Dragon Bot List.`)
 .setTimestamp()
 });
 }        
@@ -1913,7 +1911,7 @@ client.on('message' , message => {
 
 
 client.on('ready', () => {
-     client.user.setActivity("By shadowzserver Type /help ",{type: '4'});
+     client.user.setActivity("By DragonBoy Type /help ",{type: '4'});
 
 });
 
@@ -2201,7 +2199,7 @@ client.on('message', message => {
 .addField(' عدد الاعضاء ',` [${client.users.size}] `)
 .addField('الغرف ',`[${client.channels.size}]`) 
 .addField(' البنق ',`[${Date.now() - message.createdTimestamp}]`) 
-.addField('! DarkPvP#3334 اسم صانع البوت')
+.addField('DT DragonBoy_YTD#1431 اسم صانع البوت')
 .setColor('#7d2dbe')
   message.channel.sendEmbed(embed);
     }
@@ -2211,7 +2209,7 @@ client.on('message' , message => {
 if (message.content === '/owner') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("**تم تطوير وبرمجه البوت من قبل 🔧 **","** ! DarkPvP#3334**")
+      .addField("**تم تطوير وبرمجه البوت من قبل 🔧 **","** DT DragonBoy \ #1431**")
 .setColor('#B101FC')
   message.author.sendEmbed(embed);
     }
@@ -2326,7 +2324,7 @@ client.on('message', message => {
         .setTitle('Click Here')
         .setURL(`${omar.avatarURL}`)
         .setImage(`${omar.avatarURL}`)
-        .setFooter('Shadowz Bot',client.user.avatarURL) 
+        .setFooter('Dragon Bot',client.user.avatarURL) 
       message.channel.sendEmbed(embed);
     }
 });
