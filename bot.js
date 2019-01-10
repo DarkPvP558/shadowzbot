@@ -854,7 +854,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
-      .addField('شكرا لك لاستخدامك ل دراجون بوت', `https://discordapp.com/api/oauth2/authorize?client_id=470475174219743234&permissions=8&scope=bot`)
+      .addField('شكرا لك لاستخدامك ل شادوز بوت', `غيرمتوفر`)
   message.author.send({embed});
 
  }
@@ -897,7 +897,7 @@ client.on("message", message => {
  if (message.content === "/support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© DragonSystem Bot:heart: جميع الحقوق محفوظة دراجون بوت')  
+      .setFooter('© DragonSystem Bot:heart: جميع الحقوق محفوظة شادوز بوت')  
       .addField('سيرفر الدعم الفني', `  https://discord.gg/SFY3F2g  `)
   message.author.send({embed});
 
