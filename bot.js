@@ -281,7 +281,9 @@ client.on('message', message => {
 if (message.content === '/help') {
          let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)    
-      .addField("** مبرمج البوت :wrench: **","**@!DragonBoy_YTD#1431 **")
+      .addField("** مبرمج البوت :wrench: **","**@! DarkPvP#3334
+EMAIL
+ **")
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
     }
