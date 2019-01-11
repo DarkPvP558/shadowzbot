@@ -854,7 +854,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: جميع الحقوق محفوظة 2017 لــبوت')
-      .addField('شكرا لك لاستخدامك ل شادوز بوت', `غيرمتوفر`)
+      .addField('شكرا لك لاستخدامك ل شادوز بوت', `مفيش سيرفر انت عبيط ؟`)
   message.author.send({embed});
 
  }
