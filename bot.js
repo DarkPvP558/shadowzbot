@@ -1929,6 +1929,12 @@ msg.reply('هلا حبي')
 
 
 client.on('message', msg => {
+if(msg.content === 'برب')
+msg.reply('بربك معاك')
+});
+
+
+client.on('message', msg => {
 if(msg.content === 'السلام عليكم')
 msg.reply('وعليكم السلام ورحمة الله وبركاته')
 });
