@@ -3259,24 +3259,6 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
 
 
 
-client.on('message', message => {
-    if (message.content.startsWith("<@530429348726046731>"))
-    
-    message.reply("Bot Owner : HeemPlayz");
-    
-      
-
-
-
-}); 
-
-
-
-
-
-
-
-
 
 
 
