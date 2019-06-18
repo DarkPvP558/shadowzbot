@@ -2095,7 +2095,7 @@ client.on('message', message => {
                m.delete()
            }, 5000)
              setTimeout(function() {
-               message.channel.send('تم تهكيرك')
+               message.channel.send('تم تهكيرك يسطي')
            }, 6000)
            });
          }
